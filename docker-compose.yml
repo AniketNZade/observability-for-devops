@@ -73,7 +73,7 @@ services:
       dockerfile: Dockerfile
     container_name: notes-app
     ports:
-      - "8000:8000"
+      - "6000:6000"
     volumes:
       - ./notes-app:/app
     networks:
